@@ -481,10 +481,10 @@ body {
 
 .catalog-nav-button {
   position: absolute;
-  top: calc(50% - 2px);
+  top: calc(50%);
   left: calc(100% + 2px);
   padding: 0;
-  transform: translateY(-50%);
+  transform: translateY(calc(-50% - 2px));
   opacity: 0.2;
   height: 50px;
   width: 50px;
